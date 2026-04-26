@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "skills": ["Python", "Django", "FastAPI", "PostgreSQL", "Docker", "AWS", "REST APIs", "Git"],
+    "experience": 6,
+    "projects": [
+      "Built a real-time analytics dashboard serving 50K+ daily users using Django and PostgreSQL",
+      "Designed a microservices-based e-commerce platform with FastAPI and Docker on AWS",
+      "Developed an internal CI/CD pipeline tool that reduced deployment time by 40%"
+    ],
+    "location": "Bangalore"
+  },
+  {
+    "name": "Priya Patel",
+    "skills": ["Python", "Machine Learning", "TensorFlow", "Pandas", "NumPy", "SQL", "NLP", "Scikit-learn"],
+    "experience": 4,
+    "projects": [
+      "Built a sentiment analysis engine for customer reviews using BERT and TensorFlow",
+      "Created a recommendation system for an OTT platform processing 10M+ user interactions",
+      "Developed a fraud detection model achieving 96% accuracy for a fintech startup"
+    ],
+    "location": "Mumbai"
+  },
+  {
+    "name": "Rahul Verma",
+    "skills": ["JavaScript", "React", "TypeScript", "Node.js", "HTML", "CSS", "Redux", "GraphQL"],
+    "experience": 3,
+    "projects": [
+      "Developed a responsive SaaS dashboard with React and TypeScript used by 200+ businesses",
+      "Built a real-time collaborative document editor using WebSockets and Redux",
+      "Created a component library with 40+ reusable UI components published on npm"
+    ],
+    "location": "Hyderabad"
+  },
+  {
+    "name": "Sneha Iyer",
+    "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "CI/CD", "Linux", "Python"],
+    "experience": 5,
+    "projects": [
+      "Migrated monolithic infrastructure to Kubernetes on AWS, reducing cloud costs by 35%",
+      "Automated infrastructure provisioning with Terraform across 3 AWS regions",
+      "Built a centralized logging and monitoring stack with ELK and Prometheus"
+    ],
+    "location": "Chennai"
+  },
+  {
+    "name": "Vikram Singh",
+    "skills": ["Java", "Spring Boot", "Microservices", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Redis"],
+    "experience": 7,
+    "projects": [
+      "Architected an event-driven payment processing system handling 1M+ daily transactions",
+      "Led migration from monolith to 12 microservices using Spring Boot and Kafka",
+      "Designed a distributed caching layer with Redis reducing API latency by 60%"
+    ],
+    "location": "Pune"
+  },
+  {
+    "name": "Ananya Reddy",
+    "skills": ["Python", "React", "Node.js", "MongoDB", "Express.js", "Docker", "AWS", "TypeScript"],
+    "experience": 4,
+    "projects": [
+      "Built a full-stack project management tool used by 500+ teams with React and Node.js",
+      "Developed a real-time chat application with WebSocket support on AWS",
+      "Created an automated invoice generation system integrated with Stripe API"
+    ],
+    "location": "Bangalore"
+  },
+  {
+    "name": "Karthik Nair",
+    "skills": ["Python", "TensorFlow", "PyTorch", "Computer Vision", "OpenCV", "FastAPI", "Docker", "MLOps"],
+    "experience": 5,
+    "projects": [
+      "Deployed a real-time object detection system for warehouse automation using YOLOv5",
+      "Built an image classification pipeline on AWS SageMaker processing 100K images/day",
+      "Created a face recognition attendance system for a university campus"
+    ],
+    "location": "Kochi"
+  },
+  {
+    "name": "Meera Joshi",
+    "skills": ["Selenium", "Python", "Java", "Cypress", "API Testing", "Postman", "Jenkins", "Git"],
+    "experience": 3,
+    "projects": [
+      "Built an end-to-end test automation framework with Selenium reducing QA cycle by 50%",
+      "Developed API test suites covering 300+ endpoints with Postman and Newman",
+      "Implemented visual regression testing pipeline integrated with CI/CD"
+    ],
+    "location": "Delhi"
+  },
+  {
+    "name": "Arjun Mehta",
+    "skills": ["AWS", "Azure", "GCP", "Terraform", "Kubernetes", "Docker", "Python", "Networking"],
+    "experience": 9,
+    "projects": [
+      "Designed multi-cloud architecture for a healthcare platform serving 10M+ users",
+      "Led cloud security audit and compliance implementation across AWS and Azure",
+      "Built a disaster recovery system with 99.99% uptime SLA across 3 cloud providers"
+    ],
+    "location": "Gurugram"
+  },
+  {
+    "name": "Divya Krishnan",
+    "skills": ["Python", "Django", "React", "PostgreSQL", "Redis", "Celery", "Docker", "REST APIs"],
+    "experience": 5,
+    "projects": [
+      "Built a healthcare appointment booking platform handling 20K+ daily bookings",
+      "Developed an async task processing system with Celery and Redis for bulk notifications",
+      "Created a multi-tenant SaaS analytics dashboard with Django REST Framework"
+    ],
+    "location": "Bangalore"
+  },
+  {
+    "name": "Rohan Gupta",
+    "skills": ["Python", "Flask", "JavaScript", "HTML", "CSS", "MySQL", "Git", "Linux"],
+    "experience": 2,
+    "projects": [
+      "Built a personal finance tracker web app with Flask and MySQL",
+      "Developed a URL shortener service handling 10K+ redirects daily",
+      "Contributed to 5 open-source projects including a popular Python CLI tool"
+    ],
+    "location": "Noida"
+  },
+  {
+    "name": "Nisha Agarwal",
+    "skills": ["Python", "Apache Spark", "Airflow", "SQL", "Kafka", "AWS Glue", "Redshift", "ETL"],
+    "experience": 6,
+    "projects": [
+      "Built real-time data pipelines with Kafka and Spark processing 5TB of data daily",
+      "Designed a data warehouse on Redshift for business intelligence reporting",
+      "Automated ETL workflows with Airflow orchestrating 200+ DAGs"
+    ],
+    "location": "Jaipur"
+  },
+  {
+    "name": "Siddharth Rao",
+    "skills": ["Python", "FastAPI", "React", "PostgreSQL", "Redis", "Docker", "Kubernetes", "System Design"],
+    "experience": 8,
+    "projects": [
+      "Architected a high-availability notification service handling 5M+ pushes daily",
+      "Led development of a fintech lending platform processing ₹100Cr+ monthly",
+      "Designed a distributed task scheduler with fault tolerance and auto-scaling"
+    ],
+    "location": "Bangalore"
+  },
+  {
+    "name": "Pooja Bansal",
+    "skills": ["Flutter", "Dart", "React Native", "JavaScript", "Firebase", "REST APIs", "Git", "Figma"],
+    "experience": 4,
+    "projects": [
+      "Built a food delivery app with Flutter achieving 500K+ downloads on Play Store",
+      "Developed a fitness tracking app with React Native integrated with wearable APIs",
+      "Created a social media prototype with real-time feeds using Firebase"
+    ],
+    "location": "Chandigarh"
+  },
+  {
+    "name": "Amit Kulkarni",
+    "skills": ["Python", "Cybersecurity", "Penetration Testing", "AWS", "OWASP", "Docker", "Linux", "Networking"],
+    "experience": 6,
+    "projects": [
+      "Conducted 100+ penetration tests for enterprise clients across banking and e-commerce",
+      "Built an automated vulnerability scanner integrated with CI/CD pipelines",
+      "Designed a zero-trust network architecture for a Series-B fintech startup"
+    ],
+    "location": "Pune"
+  }
+]

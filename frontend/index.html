@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI-Powered Talent Scouting Agent — paste a job description and find the best candidates instantly." />
+  <title>AI Talent Scout</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ─── Header ──────────────────────────────────────────────── -->
+    <header class="header">
+      <h1 class="header__title">🎯 AI Talent Scout</h1>
+      <p class="header__subtitle">Paste a job description and find the best-matched candidates</p>
+    </header>
+
+    <!-- ─── Input Section ───────────────────────────────────────── -->
+    <section class="input-section" id="input-section">
+      <label for="jd-input" class="input-label">Job Description</label>
+      <textarea
+        id="jd-input"
+        class="textarea"
+        placeholder="Paste the job description here...&#10;&#10;Example: Looking for a Senior Python Developer with 5+ years experience in Django, AWS, Docker..."
+        rows="8"
+      ></textarea>
+
+      <!-- Quick-load a sample JD for testing -->
+      <div class="input-actions">
+        <button class="btn-secondary" id="sample-btn" type="button">📋 Load Sample JD</button>
+        <button class="btn-primary" id="find-btn" type="button">🔍 Find Candidates</button>
+      </div>
+    </section>
+
+    <!-- ─── Loading Indicator ───────────────────────────────────── -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Analyzing candidates...</p>
+    </div>
+
+    <!-- ─── Error Message ───────────────────────────────────────── -->
+    <div class="error-msg" id="error-msg"></div>
+
+    <!-- ─── Parsed JD Summary ───────────────────────────────────── -->
+    <section class="parsed-section" id="parsed-section">
+      <h2 class="section-title">📝 Parsed Requirements</h2>
+      <div class="parsed-grid" id="parsed-grid"></div>
+    </section>
+
+    <!-- ─── Results Summary ─────────────────────────────────────── -->
+    <section class="summary-section" id="summary-section">
+      <div class="summary-cards" id="summary-cards"></div>
+    </section>
+
+    <!-- ─── Candidate Results ───────────────────────────────────── -->
+    <section class="results-section" id="results-section">
+      <h2 class="section-title">👥 Ranked Candidates</h2>
+      <div class="results-list" id="results-list"></div>
+    </section>
+
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

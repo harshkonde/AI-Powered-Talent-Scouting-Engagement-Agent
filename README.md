@@ -110,6 +110,10 @@ That's it! No database setup, no API keys, no environment variables needed.
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Architecture Diagram](Architectureflow.png)
+
 ## ⚙️ How It Works
 
 ### Data Flow

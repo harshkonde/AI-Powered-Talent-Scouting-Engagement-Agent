@@ -248,4 +248,4 @@ This project is for educational and demonstration purposes.
 
 ---
 
-Built with ❤️ using Python, FastAPI, and vanilla JavaScript.
+Built using Python, FastAPI, and vanilla JavaScript.
